@@ -11,18 +11,21 @@ import Home from './Project/New folder/Home';
 
 
 function App() {
-  
+
   return (
     <div>
-     <Routes>
-          <Route path='/' element={<Home/>}/>  
-          <Route path='/room' element={<BookRoom />} />
-          <Route path='/about' element={<AboutUs />} />
-          <Route path='/gallery' element={<Gallery/>} />
-          <Route path='/contact' element={<ContactUs />} />
-        </Routes>
-      <Footer />
+  
+      <Routes>
+        <Route path='/HotelWebsite/' element={<Home/>} />
+        <Route path='/room' element={<BookRoom />} />
+        <Route path='/about' element={<AboutUs />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/contact' element={<ContactUs />} />
+      </Routes>
+  
       
+      <Footer />
+
 
     </div>
   );

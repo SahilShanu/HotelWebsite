@@ -25,7 +25,7 @@ function Navigation({clicked, isClicked}) {
         <img src="./Logo.jpg" alt="image" height="80px" width="80px" />
 
         <ul className="NavbarWrapper">
-          <li><NavLink to="/" className="NavElement" onClick={handleNav}>Home</NavLink></li>
+          <li><NavLink to="/HotelWebsite/" className="NavElement" onClick={handleNav}>Home</NavLink></li>
           <li><NavLink to="/about" className="NavElement" onClick={handleNav}>About Us</NavLink></li>
           <li ><NavLink to="/room" className="NavElement" onClick={handleNav}>Rooms</NavLink></li>
           <li ><NavLink to="/gallery" className="NavElement" onClick={handleNav}>Gallery</NavLink></li>
