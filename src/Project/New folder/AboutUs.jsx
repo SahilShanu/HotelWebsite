@@ -16,7 +16,7 @@ function AboutUs() {
     line1 : "About Us",
     line2 : null,
     para : " Let us walk you through our Hotel",
-    imgnav:"./Aboutnav.webp"
+    imgnav:"./Aboutnav.jpg"
   }
   return (
     <div>

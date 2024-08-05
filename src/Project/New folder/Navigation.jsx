@@ -26,10 +26,10 @@ function Navigation({clicked, isClicked}) {
 
         <ul className="NavbarWrapper">
           <li><NavLink to="/HotelWebsite/" className="NavElement" onClick={handleNav}>Home</NavLink></li>
-          <li><NavLink to="/about" className="NavElement" onClick={handleNav}>About Us</NavLink></li>
-          <li ><NavLink to="/room" className="NavElement" onClick={handleNav}>Rooms</NavLink></li>
-          <li ><NavLink to="/gallery" className="NavElement" onClick={handleNav}>Gallery</NavLink></li>
-          <li ><NavLink to="/contact" className="NavElement" onClick={handleNav}>Contact</NavLink></li>
+          <li><NavLink to="/HotelWebsite/about" className="NavElement" onClick={handleNav}>About Us</NavLink></li>
+          <li ><NavLink to="/HotelWebsite/room" className="NavElement" onClick={handleNav}>Rooms</NavLink></li>
+          <li ><NavLink to="/HotelWebsite/gallery" className="NavElement" onClick={handleNav}>Gallery</NavLink></li>
+          <li ><NavLink to="/HotelWebsite/contact" className="NavElement" onClick={handleNav}>Contact</NavLink></li>
         </ul>
 
         {!clicked?(<FontAwesomeIcon icon={faBars} className='icon' onClick={handleClicked} />): (<FontAwesomeIcon icon={faXmark} className='icon' onClick={handleClicked} />)}

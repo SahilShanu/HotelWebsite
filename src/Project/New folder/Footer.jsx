@@ -10,7 +10,7 @@ function Footer() {
     return (
         <div className={Footerstyle.mainfooter}>
             <div className={Footerstyle.boxfooter}>
-                <img src="./Logo.jpg" alt="" height="300px" width="270px" />
+                <img src="./Logo.jpg" alt="image" height="300px" width="270px" />
             </div>
             <div className={Footerstyle.boxfooter}>
                 <h2>CONTACT US</h2>
@@ -30,11 +30,11 @@ function Footer() {
             <div className={Footerstyle.boxfooter}>
                 <h2>LINKS</h2>
                 <div className={Footerstyle.link}>
-                    <Link to="/" onClick={handleNav}><h3 >HOME</h3></Link>
-                    <Link to="/about" onClick={handleNav}><h3 >ABOUT US</h3></Link>
-                    <Link to="/room" onClick={handleNav}><h3 >ROOM</h3></Link>
-                    <Link to="/gallery" onClick={handleNav}><h3 >GALLERY</h3></Link>
-                    <Link to="/contact" onClick={handleNav}><h3 >CONTACT US</h3></Link>
+                    <Link to="/HotelWebsite/" onClick={handleNav}><h3 >HOME</h3></Link>
+                    <Link to="/HotelWebsite/about" onClick={handleNav}><h3 >ABOUT US</h3></Link>
+                    <Link to="/HotelWebsite/room" onClick={handleNav}><h3 >ROOM</h3></Link>
+                    <Link to="/HotelWebsite/gallery" onClick={handleNav}><h3 >GALLERY</h3></Link>
+                    <Link to="/HotelWebsite/contact" onClick={handleNav}><h3 >CONTACT US</h3></Link>
                     
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Roomstyle from './Roomstyle.module.css'
-import SmallRoom1 from '../Images/SmallRoom1.jpg'
+import SmallRoom1 from '/SmallRoom1.jpg'
 
 
 function Rooms() {

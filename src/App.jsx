@@ -17,10 +17,10 @@ function App() {
   
       <Routes>
         <Route path='/HotelWebsite/' element={<Home/>} />
-        <Route path='/room' element={<BookRoom />} />
-        <Route path='/about' element={<AboutUs />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/contact' element={<ContactUs />} />
+        <Route path='/HotelWebsite/room' element={<BookRoom />} />
+        <Route path='/HotelWebsite/about' element={<AboutUs />} />
+        <Route path='/HotelWebsite/gallery' element={<Gallery />} />
+        <Route path='HotelWebsite/contact' element={<ContactUs />} />
       </Routes>
   
       
