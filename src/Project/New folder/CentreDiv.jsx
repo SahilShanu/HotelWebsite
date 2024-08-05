@@ -28,7 +28,7 @@ function CentreDiv() {
             The moment you walk through our doors, you'll feel the immaculate atmosphere. Our devoted staff, who we proudly regard as our extended family, stands ready to greet you with genuine smiles and unwavering assistance. Your every need, no matter how small or grand, is our top priority, as we are here to ensure your stay is not just comfortable but truly rejuvenating.
             Urban Hotel The Golden Stork promises you the best of both worlds city vibrancy and tranquil relaxation. So why wait? Secure your stay with us and savor each moment, knowing that we are here to shoulder any burdens, leaving you with nothing but cherished memories. Your escape begins here, with us.
           </p>
-            <Link to="/about" onClick={handleNav}><button>ABOUT US</button></Link>
+            <Link to="/HotelWebsite/about" onClick={handleNav}><button>ABOUT US</button></Link>
         </div>
 
       </div>

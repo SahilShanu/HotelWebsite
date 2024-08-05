@@ -58,10 +58,8 @@
 }
 
 .active{
-    color:white;
-    cursor: pointer;
-
-}
+    color: white; 
+  }
 
 .icon{
     display: none;
