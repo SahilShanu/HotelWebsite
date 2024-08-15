@@ -9,27 +9,27 @@ function Menu() {
       <div className="Navbars">
         <ul className="NavbarWrappers">
           <li className="NavbarElement">
-            <NavLink className="link" to="/">
+            <NavLink className="link" to="/HotelWebsite/">
               Home
             </NavLink>
           </li>
           <li className="NavbarElement">
-            <NavLink className="link" to="/about">
+            <NavLink className="link" to="/HotelWebsite/about">
               About Us
             </NavLink>
           </li>
           <li className="NavbarElement">
-            <NavLink className="link"to="/room">
+            <NavLink className="link"to="/HotelWebsite/room">
               Room
             </NavLink>
           </li>
           <li className="NavbarElement">
-            <NavLink className="link" to="/gallery">
+            <NavLink className="link" to="/HotelWebsite/gallery">
               Gallery
             </NavLink>
           </li>
           <li className="NavbarElement">
-            <NavLink className="link" to="/contact">
+            <NavLink className="link" to="HotelWebsite/contact">
               Contact Us
             </NavLink>
           </li>
